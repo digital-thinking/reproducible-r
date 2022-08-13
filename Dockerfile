@@ -15,7 +15,7 @@ RUN apt-get -y install git
 
 # checkout our git repository
 WORKDIR /workdir
-RUN git clone https://github.com/digital-thinking/spark-titanic.git .
+RUN git clone https://github.com/digital-thinking/reproducible-r.git .
 # install checkpoint library
 RUN Rscript -e "install.packages('checkpoint')"
 #start R script
